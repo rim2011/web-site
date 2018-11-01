@@ -1,0 +1,149 @@
+body{
+  
+  /*background: linear-gradient(to top left, #da310b, #f7876e);*/
+  height:100vh;
+  font-family: 'Source Code Pro', monospace;
+  min-height:1500px;
+}
+.navbar{
+ /* background:rgba(0,0,0,0.9);*/
+ background-color:#da310b;
+margin:0;
+/*opacity:0.9;*/
+}
+.navbar-brand{
+  color: #cccccc;
+  font-size:5px;
+  font-weight:700;
+  text-shadow:4px 2px 1px grey;
+  transition: color 2s;
+  padding:0;
+  margin:0;
+  } 
+.navbar-brand span{
+  width:100%;
+  color: #cccccc;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    padding-bottom: 0px;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0px;
+   text-transform: uppercase;
+}
+.navbar-brand:hover{
+  color:white;
+  text-shadow:8px 5px 2px rgba(0.3, 0.3, .3, 0.5); 
+}
+.nav{
+  margin:35px;
+ font-family: 'EB Garamond', serif;
+}
+.nav-item{
+  transform: translateZ(1px);
+  box-shadow: 0 2px 1px rgba(0.3, 0.3, .3, 0.5);
+  transform-origin: 0 100%;
+}
+.nav-item:hover{
+}
+.active{
+  color:white !important;
+}
+.nav-link{
+  /*font-style:italic;*/
+  font-size:20px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: color 0.5s;
+}
+.nav-link:hover{
+  color:white;
+  text-decoration:none;
+  transition: all .5s;
+}
+
+
+
+.container1 {
+  opacity:0.9;
+  background:url("http://www.universellevision.fr/wp-content/uploads/2016/06/agence-2.png");
+  background-size:cover;
+  padding-top:30vh;
+  padding-bottom:10vh;
+  margin:0; 
+  color:#da310b;
+  /*background:rgba(0,0,0,0.2);*/
+  font-family: 'EB Garamond', serif;
+  height:100vh;
+  /*text-shadow: black 0.5em 0.5em 0.5em;*/
+}
+ 
+.content {
+  padding-left:20px;
+  padding-right:20px;
+  opacity:0.9;
+  background:black;
+   padding-top: 20px;
+    padding-bottom: 20px;
+   box-shadow: 1px 1px 6px #555 ;
+    border-radius:10px;
+    
+}
+
+.container1 h2{   
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #d2b797;
+  transition: color 2s;
+}
+.container1>h1:hover{
+  color:white;
+}
+.container1 h1{font-size:80px; color:white; font:weight:600; color:#da310b;}
+.container1 p{
+
+    font-family: "Arapey", serif;
+    font-style: italic;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    color:#da310b;   
+}
+
+.container2 {
+  margin:0;
+  padding-top:20vh;
+  padding-bottom:20vh;
+  color:  #d2b797;
+  background: linear-gradient(to top left, #da310b, #f7876e);
+  background-size:cover;
+  /*opacity:0.8;*/
+  /*z-index:3;*/
+  font-family:'EB Garamond', serif;
+  font-size:30px;
+  }
+.block2{
+  background:rgba(0,0,0,0.5);
+  background-color:black;
+  border-radius:5px;
+} 
+.container2 span{
+  box-shadow:4px 16px 4px 0.6;
+  font-size:20px;
+  color:red;
+}
+
+
+.container2 h1{
+  font-weight:700;
+  color: red;
+  font-size:40px;
+  padding-bottom: 50px;
+  text-shadow:2px 2px 2px red;
+}
+
+
+
+
+
+
